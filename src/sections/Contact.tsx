@@ -52,6 +52,10 @@ const Contact = () => {
             Whether you're looking to build a new website, improve your existing
             platform, or bring a unique project to life, I'm here to help.
           </p>
+          <div className="flex flex-col gap-2 text-muted-foreground">
+            <p>Email: Khushisaraswat916@gmail.com</p>
+            <p>Phone: +91-9256553471</p>
+          </div>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">

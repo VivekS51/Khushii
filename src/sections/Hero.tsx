@@ -1,13 +1,21 @@
 import { motion } from "framer-motion";
+import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 import FlipWords from "@/components/FlipWords";
 import heroCharacter from "@/assets/hero-character.png";
 
 const Hero = () => {
-  const words = ["Innovative", "Creative", "Robust"];
+  const words = ["Imaginative", "Next-gen", "Expressive"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
   };
+
+  const socialLinks = [
+    { icon: Linkedin, href: "https://linkedin.com/in/khushi-saraswat", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/KhushiSaraswat", label: "GitHub" },
+    { icon: Mail, href: "mailto:Khushisaraswat916@gmail.com", label: "Email" },
+    { icon: MessageCircle, href: "https://wa.me/919256553471", label: "WhatsApp" },
+  ];
 
   return (
     <section
@@ -58,6 +66,28 @@ const Hero = () => {
             >
               Web Solutions
             </motion.p>
+
+            {/* Social Links Desktop */}
+            <motion.div
+              className="flex gap-4 mt-8"
+              variants={variants}
+              initial="hidden"
+              animate="visible"
+              transition={{ delay: 1.4 }}
+            >
+              {socialLinks.map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full bg-white/5 hover:bg-white/10 hover:text-accent transition-all duration-300 border border-white/10 hover:border-accent/50 group"
+                  aria-label={label}
+                >
+                  <Icon className="w-6 h-6 text-muted-foreground group-hover:text-accent group-hover:scale-110 transition-transform" />
+                </a>
+              ))}
+            </motion.div>
           </div>
         </div>
 
@@ -99,6 +129,28 @@ const Hero = () => {
             >
               Web Applications
             </motion.p>
+
+            {/* Social Links Mobile */}
+            <motion.div
+              className="flex justify-center gap-4 mt-6"
+              variants={variants}
+              initial="hidden"
+              animate="visible"
+              transition={{ delay: 1.4 }}
+            >
+              {socialLinks.map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full bg-white/5 hover:bg-white/10 hover:text-accent transition-all duration-300 border border-white/10"
+                  aria-label={label}
+                >
+                  <Icon className="w-5 h-5 text-muted-foreground hover:text-accent" />
+                </a>
+              ))}
+            </motion.div>
           </div>
         </div>
       </div>

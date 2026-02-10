@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certificates = [
+
   {
     title: "TCP/IP and Advanced Topics",
     issuer: "Coursera",

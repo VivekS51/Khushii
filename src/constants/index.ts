@@ -56,24 +56,6 @@ export const experiences = [
       "Improved skills in file operations, program structuring, and problem-solving.",
     ],
   },
-  {
-    title: "AWS Student Community Day",
-    job: "Workshop – AWS Cloud Clubs",
-    date: "Nov 2025",
-    contents: [
-      "Participated in AWS Student Community Day Workshop conducted by AWS Cloud Clubs in Jalandhar.",
-      "Gained hands-on experience with cloud computing concepts and AWS services.",
-    ],
-  },
-  {
-    title: "Code Off Duty Hackathon",
-    job: "24-Hour Campus Hackathon",
-    date: "Mar 2024",
-    contents: [
-      "Participated in a 24-hour campus-level coding hackathon.",
-      "Collaborated with peers to build solutions under time constraints.",
-    ],
-  },
 ];
 
 export const reviews = [

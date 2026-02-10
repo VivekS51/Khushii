@@ -4,8 +4,8 @@ import { Briefcase } from "lucide-react";
 
 const Experiences = () => {
   return (
-    <section className="c-space section-spacing">
-      <h2 className="text-heading">Work Experience</h2>
+    <section className="c-space section-spacing" id="training">
+      <h2 className="text-heading">Training</h2>
       <div className="relative mt-12">
         {/* Timeline line */}
         <div className="absolute left-4 md:left-8 top-0 bottom-0 w-px" style={{ background: "linear-gradient(to bottom, hsl(var(--royal)), hsl(var(--aqua)), transparent)" }} />
