@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="absolute bottom-1/4 left-1/4 w-72 h-72 rounded-full opacity-10 blur-3xl" style={{ background: "hsl(var(--aqua))" }} />
 
       {/* Text Content */}
-      <div className="z-10 mt-44 text-center md:mt-48 md:text-left">
+      <div className="z-10 mt-32 text-center md:mt-40 md:text-left">
         {/* Desktop View */}
         <div className="flex-col hidden md:flex">
           <motion.h1
