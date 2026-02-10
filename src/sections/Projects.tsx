@@ -10,7 +10,7 @@ const Projects = () => {
     <section className="relative c-space section-spacing" id="work">
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="mt-12 h-px w-full" style={{ background: "linear-gradient(to right, transparent, hsl(var(--muted-foreground) / 0.3), transparent)" }} />
-      
+
       {myProjects.map((project) => (
         <motion.div
           key={project.id}
@@ -35,7 +35,7 @@ const Projects = () => {
               <p className="subtext max-w-xl mb-3">
                 {project.description}
               </p>
-              
+
               <motion.div
                 initial={{ height: 0, opacity: 0 }}
                 animate={{

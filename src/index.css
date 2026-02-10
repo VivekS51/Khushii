@@ -116,15 +116,19 @@
   .grid-1 {
     @apply row-span-2 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
   }
+
   .grid-2 {
     @apply row-span-1 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
   }
+
   .grid-3 {
     @apply row-span-1 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
   }
+
   .grid-4 {
     @apply row-span-1 md:col-span-2 h-60 md:h-full relative overflow-hidden hover-animation;
   }
+
   .grid-5 {
     @apply row-span-1 md:col-span-4 h-60 md:h-full relative overflow-hidden hover-animation;
   }
@@ -160,25 +164,41 @@
   }
 
   .field-input:focus {
-    @apply outline-none ring-2;
-    ring-color: hsl(0 0% 100% / 0.2);
+    @apply outline-none ring-2 ring-white/20;
   }
 }
 
 @layer utilities {
   @keyframes float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-20px) rotate(2deg); }
+
+    0%,
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+      transform: translateY(-20px) rotate(2deg);
+    }
   }
-  
+
   @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(calc(-100% - var(--gap))); }
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
   }
 
   @keyframes marquee-reverse {
-    from { transform: translateX(calc(-100% - var(--gap))); }
-    to { transform: translateX(0); }
+    from {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+
+    to {
+      transform: translateX(0);
+    }
   }
 
   .animate-float {

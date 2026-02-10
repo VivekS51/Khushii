@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircle, Download } from "lucide-react";
 import FlipWords from "@/components/FlipWords";
 import heroCharacter from "@/assets/hero-character.png";
 
@@ -88,6 +88,24 @@ const Hero = () => {
                 </a>
               ))}
             </motion.div>
+
+            {/* Resume Button Desktop */}
+            <motion.div
+              className="mt-10"
+              variants={variants}
+              initial="hidden"
+              animate="visible"
+              transition={{ delay: 1.6 }}
+            >
+              <a
+                href="/Khushi_Saraswat_Resume.pdf"
+                download="Khushi_Saraswat_Resume.pdf"
+                className="flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20 group w-fit"
+              >
+                <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" />
+                Download Resume
+              </a>
+            </motion.div>
           </div>
         </div>
 
@@ -150,6 +168,24 @@ const Hero = () => {
                   <Icon className="w-5 h-5 text-muted-foreground hover:text-accent" />
                 </a>
               ))}
+            </motion.div>
+
+            {/* Resume Button Mobile */}
+            <motion.div
+              className="mt-8 flex justify-center"
+              variants={variants}
+              initial="hidden"
+              animate="visible"
+              transition={{ delay: 1.6 }}
+            >
+              <a
+                href="/Khushi_Saraswat_Resume.pdf"
+                download="Khushi_Saraswat_Resume.pdf"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20"
+              >
+                <Download className="w-4 h-4" />
+                Download Resume
+              </a>
             </motion.div>
           </div>
         </div>

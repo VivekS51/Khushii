@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { experiences } from "@/constants";
+import { trainingData } from "@/constants";
 import { Briefcase } from "lucide-react";
 
-const Experiences = () => {
+const Training = () => {
   return (
     <section className="c-space section-spacing" id="training">
       <h2 className="text-heading">Training</h2>
@@ -10,7 +10,7 @@ const Experiences = () => {
         {/* Timeline line */}
         <div className="absolute left-4 md:left-8 top-0 bottom-0 w-px" style={{ background: "linear-gradient(to bottom, hsl(var(--royal)), hsl(var(--aqua)), transparent)" }} />
 
-        {experiences.map((exp, index) => (
+        {trainingData.map((exp, index) => (
           <motion.div
             key={index}
             className="relative pl-12 md:pl-20 pb-12 last:pb-0"
@@ -50,4 +50,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default Training;
