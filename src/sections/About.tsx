@@ -9,10 +9,10 @@ const About = () => {
         {/* Grid 1 - Intro */}
         <div className="flex items-end grid-default-color grid-1">
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">Hi, I'm Khushi Saraswat</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic software and web applications.
+              A Computer Science student at Lovely Professional University with
+              skills in C++, Java, Python, and cloud technologies like AWS.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3" style={{ background: "linear-gradient(to top, hsl(var(--indigo)), transparent)" }} />
@@ -66,7 +66,7 @@ const About = () => {
               Do you want to start a project together?
             </p>
             <button
-              onClick={() => navigator.clipboard.writeText("alisanatidev@gmail.com")}
+              onClick={() => navigator.clipboard.writeText("Khushisaraswat916@gmail.com")}
               className="px-6 py-2.5 text-sm rounded-full transition-all hover-animation"
               style={{ background: "hsl(var(--primary))" }}
             >

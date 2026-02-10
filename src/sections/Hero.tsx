@@ -3,7 +3,7 @@ import FlipWords from "@/components/FlipWords";
 import heroCharacter from "@/assets/hero-character.png";
 
 const Hero = () => {
-  const words = ["Secure", "Modern", "Scalable"];
+  const words = ["Innovative", "Creative", "Robust"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -29,7 +29,7 @@ const Hero = () => {
             animate="visible"
             transition={{ delay: 0.3 }}
           >
-            Hi I'm Ali
+            Hi I'm Khushi
           </motion.h1>
           <div className="flex flex-col items-start">
             <motion.p
@@ -70,7 +70,7 @@ const Hero = () => {
             animate="visible"
             transition={{ delay: 0.3 }}
           >
-            Hi, I'm Ali
+            Hi, I'm Khushi
           </motion.p>
           <div>
             <motion.p
