@@ -1,95 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 234 56% 3%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 232 56% 7%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 232 56% 7%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 234 56% 3%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 237 28% 17%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 237 28% 17%;
+    --muted-foreground: 240 5% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 183 60% 50%;
+    --accent-foreground: 234 56% 3%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 100% / 0.1;
+    --input: 0 0% 100% / 0.1;
+    --ring: 265 60% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom portfolio colors */
+    --midnight: 232 56% 7%;
+    --navy: 237 28% 14%;
+    --indigo: 244 20% 17%;
+    --storm: 234 20% 23%;
+    --aqua: 183 60% 50%;
+    --mint: 149 60% 60%;
+    --royal: 265 60% 50%;
+    --lavender: 265 55% 60%;
+    --fuchsia: 330 60% 49%;
+    --coral: 345 80% 60%;
+    --sand: 30 50% 60%;
+    --orange: 18 60% 50%;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
@@ -101,5 +68,128 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Funnel Display", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .c-space {
+    @apply sm:px-10 px-5 lg:px-16;
+  }
+
+  .hover-animation {
+    @apply hover:-translate-y-1 duration-200;
+  }
+
+  .section-spacing {
+    @apply min-h-screen mt-20 md:mt-32;
+  }
+
+  .text-heading {
+    @apply font-bold text-3xl md:text-4xl;
+  }
+
+  .headtext {
+    @apply mt-2 mb-2 text-xl;
+  }
+
+  .subtext {
+    @apply text-muted-foreground text-sm md:text-base text-pretty;
+  }
+
+  /* Navigation */
+  .nav-ul {
+    @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20;
+  }
+
+  .nav-li {
+    @apply text-muted-foreground hover:text-foreground max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+  }
+
+  .nav-link {
+    @apply text-lg md:text-base hover:text-foreground transition-colors;
+  }
+
+  /* Grid About */
+  .grid-1 {
+    @apply row-span-2 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
+  }
+  .grid-2 {
+    @apply row-span-1 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
+  }
+  .grid-3 {
+    @apply row-span-1 md:col-span-3 h-60 md:h-full relative overflow-hidden hover-animation;
+  }
+  .grid-4 {
+    @apply row-span-1 md:col-span-2 h-60 md:h-full relative overflow-hidden hover-animation;
+  }
+  .grid-5 {
+    @apply row-span-1 md:col-span-4 h-60 md:h-full relative overflow-hidden hover-animation;
+  }
+
+  .grid-default-color {
+    @apply p-6 rounded-2xl;
+    background: linear-gradient(to bottom, hsl(var(--storm)), hsl(var(--indigo)));
+  }
+
+  .grid-special-color {
+    @apply p-6 rounded-2xl;
+    background: linear-gradient(to bottom, hsl(var(--royal)), hsl(var(--lavender)));
+  }
+
+  .grid-black-color {
+    @apply p-6 rounded-2xl;
+    background: linear-gradient(to top left, hsl(0 0% 23%), hsl(0 0% 14%), hsl(0 0% 23%));
+  }
+
+  /* Contact */
+  .field-label {
+    @apply text-sm font-medium leading-none;
+  }
+
+  .field-input {
+    @apply w-full min-h-10 rounded-md px-3 py-2 text-sm transition duration-200 mt-2;
+    background: hsl(0 0% 100% / 0.1);
+    border: 1px solid hsl(0 0% 100% / 0.1);
+  }
+
+  .field-input::placeholder {
+    @apply text-muted-foreground;
+  }
+
+  .field-input:focus {
+    @apply outline-none ring-2;
+    ring-color: hsl(0 0% 100% / 0.2);
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(2deg); }
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-100% - var(--gap))); }
+  }
+
+  @keyframes marquee-reverse {
+    from { transform: translateX(calc(-100% - var(--gap))); }
+    to { transform: translateX(0); }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee var(--duration, 30s) linear infinite;
+  }
+
+  .animate-marquee-reverse {
+    animation: marquee-reverse var(--duration, 30s) linear infinite;
   }
 }

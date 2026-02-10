@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        midnight: "hsl(var(--midnight))",
+        navy: "hsl(var(--navy))",
+        indigo: "hsl(var(--indigo))",
+        storm: "hsl(var(--storm))",
+        aqua: "hsl(var(--aqua))",
+        mint: "hsl(var(--mint))",
+        royal: "hsl(var(--royal))",
+        lavender: "hsl(var(--lavender))",
+        fuchsia: "hsl(var(--fuchsia))",
+        coral: "hsl(var(--coral))",
+        sand: "hsl(var(--sand))",
+        orange: "hsl(var(--orange))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,20 +77,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
