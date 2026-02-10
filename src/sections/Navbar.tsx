@@ -33,37 +33,6 @@ function Navigation() {
   );
 }
 
-function Navigation() {
-  return (
-    <ul className="nav-ul">
-      <li className="nav-li">
-        <a className="nav-link" href="#home">Home</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#about">About</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#training">Training</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">Projects</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#education">Education</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#certificates">Certificates</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#achievements">Achievements</a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  );
-}
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
