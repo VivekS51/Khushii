@@ -57,7 +57,7 @@ const Marquee = ({
 const Testimonials = () => {
   return (
     <section className="c-space mt-24 md:mt-36">
-      <h2 className="text-heading">Hear From My Clients</h2>
+      <h2 className="text-heading">What People Say</h2>
       <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden gap-4">
         <Marquee className="[--duration:25s]">
           {firstRow.map((review) => (
