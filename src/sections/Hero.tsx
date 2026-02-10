@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MessageCircle, Download } from "lucide-react";
 import FlipWords from "@/components/FlipWords";
+import StarsBackground from "@/components/StarsBackground";
 import heroCharacter from "@/assets/hero-character.png";
 
 const Hero = () => {
@@ -22,12 +23,13 @@ const Hero = () => {
       id="home"
       className="relative flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
     >
+      <StarsBackground />
       {/* Background gradient orbs */}
       <div className="absolute top-1/4 right-1/4 w-96 h-96 rounded-full opacity-20 blur-3xl" style={{ background: "hsl(var(--royal))" }} />
       <div className="absolute bottom-1/4 left-1/4 w-72 h-72 rounded-full opacity-10 blur-3xl" style={{ background: "hsl(var(--aqua))" }} />
 
       {/* Text Content */}
-      <div className="z-10 mt-32 text-center md:mt-40 md:text-left">
+      <div className="z-10 mt-44 text-center md:mt-48 md:text-left">
         {/* Desktop View */}
         <div className="flex-col hidden md:flex">
           <motion.h1

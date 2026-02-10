@@ -1,4 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
+import StarsBackground from "@/components/StarsBackground";
 
 const socials = [
   { icon: Github, href: "https://github.com/KhushiSaraswat" },
@@ -7,7 +8,8 @@ const socials = [
 
 const Footer = () => {
   return (
-    <section className="c-space pb-4">
+    <section className="c-space pb-4 relative overflow-hidden">
+      <StarsBackground />
       <div className="h-px w-full mb-4" style={{ background: "linear-gradient(to right, transparent, hsl(var(--muted-foreground) / 0.3), transparent)" }} />
       <div className="flex flex-wrap items-center justify-between gap-5 text-sm text-muted-foreground">
         <div className="flex gap-2">
