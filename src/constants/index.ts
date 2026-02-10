@@ -1,175 +1,117 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Water Pollution & Resource Tracking",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "An application to check pollution indexes of different cities, creating awareness among citizens about water pollution levels.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Constructed an application to check the pollution indexes of different cities.",
+      "Developed features and created a new landing page to enhance viewer experience.",
+      "Designed to create awareness among citizens about water pollution levels of their specific state/city.",
     ],
     href: "",
-    tags: ["C#", ".Net", "EF Core", "TailwindCSS"],
+    tags: ["Python", "HTML", "CSS", "MySQL"],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Arduino Rotatory Measurement Device",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "An Arduino-based device to measure rotational angle, direction, and speed using a rotary encoder.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built an Arduino-based device to measure rotational angle, direction, and speed using a rotary encoder.",
+      "Added LCD/serial output for live display of rotational measurements.",
+      "Designed the circuit with stable sensor interfacing and noise-free signal handling.",
     ],
     href: "",
-    tags: ["Auth0", "React", "SQLite", "TailwindCSS"],
+    tags: ["Arduino", "C++", "Hardware", "IoT"],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Library Management System",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A C++ application that lets users add, view, and search books through a simple menu interface.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Created a Library Management System in C++ with a simple menu interface.",
+      "Used classes and file handling to store book records safely.",
+      "Made searching quick and accurate with efficient file operations and program structuring.",
     ],
     href: "",
-    tags: ["Blazor", ".NET Core", "SQLite", "TailwindCSS"],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    tags: ["C++", "C#", "OpenGL", "Git"],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    tags: ["WordPress", "HTML5", "CSS3", "Vite.js"],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    tags: ["Blazor", "Azure", "Stripe", "TailwindCSS"],
+    tags: ["C++", "OOP", "DSA", "File Handling"],
   },
 ];
 
 export const mySocials = [
-  { name: "GitHub", href: "https://github.com", icon: "github" },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: "linkedin" },
-  { name: "Instagram", href: "https://instagram.com", icon: "instagram" },
+  { name: "GitHub", href: "https://github.com/KhushiSaraswat", icon: "github" },
+  { name: "LinkedIn", href: "https://linkedin.com/in/khushi-saraswat", icon: "linkedin" },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "C++ Programming: OOPs and DSA",
+    job: "CSE Pathshala – Training",
+    date: "Jun 2025 – Jul 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+      "Completed intensive training in Object-Oriented Programming and Data Structures & Algorithms.",
+      "Built a Library Management System as a capstone project.",
+      "Improved skills in file operations, program structuring, and problem-solving.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "AWS Student Community Day",
+    job: "Workshop – AWS Cloud Clubs",
+    date: "Nov 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control.",
-      "Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Participated in AWS Student Community Day Workshop conducted by AWS Cloud Clubs in Jalandhar.",
+      "Gained hands-on experience with cloud computing concepts and AWS services.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Code Off Duty Hackathon",
+    job: "24-Hour Campus Hackathon",
+    date: "Mar 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Participated in a 24-hour campus-level coding hackathon.",
+      "Collaborated with peers to build solutions under time constraints.",
     ],
   },
 ];
 
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "TCP/IP",
+    username: "@coursera",
+    body: "Completed TCP/IP and Advanced Topics certification from Coursera.",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    name: "Networking",
+    username: "@coursera",
+    body: "Certified in Peer-to-Peer Protocols and Local Area Networks.",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Computer Networking",
+    username: "@coursera",
+    body: "Completed The Bits and Bytes of Computer Networking certification.",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
+    name: "Decision-Making",
+    username: "@softskills",
+    body: "Strong decision-making abilities honed through academic and project work.",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
+    name: "Public Speaking",
+    username: "@softskills",
+    body: "Experienced in public speaking and presenting technical concepts clearly.",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
+    name: "Adaptability",
+    username: "@softskills",
+    body: "Quick to adapt to new technologies, tools, and team environments.",
   },
 ];
 
 export const techStack = [
-  "React", "TypeScript", "Tailwind CSS", "Three.js", "Node.js",
-  "C#", ".NET", "Blazor", "PostgreSQL", "Docker",
-  "Git", "Vite", "Framer Motion", "REST API", "GraphQL",
+  "C++", "Java", "C", "Python",
+  "HTML", "CSS", "MySQL",
+  "AWS", "Apache Cloudstack",
+  "Arduino", "Git",
 ];

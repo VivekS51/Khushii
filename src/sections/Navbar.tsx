@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-3 sm:py-2">
           <a href="/" className="text-xl font-bold transition-colors text-muted-foreground hover:text-foreground">
-            Ali
+            Khushi
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
