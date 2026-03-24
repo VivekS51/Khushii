@@ -33,15 +33,15 @@ const About = () => {
             <img
               src={profile}
               alt="profile"
-              className="w-full h-full object-cover opacity-60"
+              className="w-full h-full object-cover object-top opacity-60"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
           </div>
           <div className="z-10 relative p-4">
-            <p className="headtext">Hi, I'm Khushi Saraswat</p>
+            <p className="headtext">Hi, I'm Amit Kumar</p>
             <p className="subtext">
               A Computer Science student at Lovely Professional University with
-              skills in C++, Java, Python, and cloud technologies like AWS.
+              skills in C++, DSA, ReactJS, and Spring Boot.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ const About = () => {
               Do you want to start a project together?
             </p>
             <button
-              onClick={() => navigator.clipboard.writeText("Khushisaraswat916@gmail.com")}
+              onClick={() => navigator.clipboard.writeText("2407mehtaamit@gmail.com")}
               className="px-6 py-2.5 text-sm rounded-full transition-all hover-animation"
               style={{ background: "hsl(var(--primary))" }}
             >
@@ -132,11 +132,12 @@ const About = () => {
           <div className="absolute inset-y-0 right-0 w-1/2 flex flex-wrap items-center justify-center gap-2 p-4 opacity-80">
             {techStack.map((tech) => (
               <span
-                key={tech}
-                className="px-3 py-1 text-xs rounded-full border border-foreground/10"
+                key={tech.name}
+                className="flex items-center gap-2 px-3 py-1.5 text-xs rounded-full border border-foreground/10"
                 style={{ background: "hsl(var(--storm) / 0.5)" }}
               >
-                {tech}
+                {tech.logo && <img src={tech.logo} alt={tech.name} className="w-4 h-4 object-contain" />}
+                {tech.name}
               </span>
             ))}
           </div>

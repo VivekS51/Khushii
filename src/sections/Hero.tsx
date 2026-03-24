@@ -12,10 +12,10 @@ const Hero = () => {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com/in/khushi-saraswat", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com/KhushiSaraswat", label: "GitHub" },
-    { icon: Mail, href: "mailto:Khushisaraswat916@gmail.com", label: "Email" },
-    { icon: MessageCircle, href: "https://wa.me/919256553471", label: "WhatsApp" },
+    { icon: Linkedin, href: "https://linkedin.com/in/amit-mehta24", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Amit-mehta24", label: "GitHub" },
+    { icon: Mail, href: "mailto:2407mehtaamit@gmail.com", label: "Email" },
+    { icon: MessageCircle, href: "https://wa.me/919508708395", label: "WhatsApp" },
   ];
 
   return (
@@ -39,7 +39,7 @@ const Hero = () => {
             animate="visible"
             transition={{ delay: 0.3 }}
           >
-            Hi I'm Khushi
+            Hi I'm Amit Kumar
           </motion.h1>
           <div className="flex flex-col items-start">
             <motion.p
@@ -100,8 +100,8 @@ const Hero = () => {
               transition={{ delay: 1.6 }}
             >
               <a
-                href="/Khushi_Saraswat_Resume.pdf"
-                download="Khushi_Saraswat_Resume.pdf"
+                href="/PEV34CVamit.pdf"
+                download="Amit_Kumar_CV.pdf"
                 className="flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20 group w-fit"
               >
                 <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" />
@@ -120,7 +120,7 @@ const Hero = () => {
             animate="visible"
             transition={{ delay: 0.3 }}
           >
-            Hi, I'm Khushi
+            Hi, I'm Amit Kumar
           </motion.p>
           <div>
             <motion.p
@@ -181,8 +181,8 @@ const Hero = () => {
               transition={{ delay: 1.6 }}
             >
               <a
-                href="/Khushi_Saraswat_Resume.pdf"
-                download="Khushi_Saraswat_Resume.pdf"
+                href="/PEV34CVamit.pdf"
+                download="Amit_Kumar_CV.pdf"
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20"
               >
                 <Download className="w-4 h-4" />

@@ -53,8 +53,8 @@ const Contact = () => {
                         platform, or bring a unique project to life, I'm here to help.
                     </p>
                     <div className="flex flex-col gap-2 text-muted-foreground">
-                        <p>Email: Khushisaraswat916@gmail.com</p>
-                        <p>Phone: +91-9256553471</p>
+                        <p>Email: 2407mehtaamit@gmail.com</p>
+                        <p>Phone: +91 9508708395</p>
                     </div>
                 </div>
                 <form className="w-full" onSubmit={handleSubmit}>

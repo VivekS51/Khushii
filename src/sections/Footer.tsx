@@ -2,8 +2,8 @@ import { Github, Linkedin } from "lucide-react";
 import StarsBackground from "@/components/StarsBackground";
 
 const socials = [
-  { icon: Github, href: "https://github.com/KhushiSaraswat" },
-  { icon: Linkedin, href: "https://linkedin.com/in/khushi-saraswat" },
+  { icon: Github, href: "https://github.com/Amit-mehta24" },
+  { icon: Linkedin, href: "https://linkedin.com/in/amit-mehta24" },
 ];
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p>© 2025 Khushi. All rights reserved.</p>
+        <p>© 2025 Amit Kumar. All rights reserved.</p>
       </div>
     </section>
   );

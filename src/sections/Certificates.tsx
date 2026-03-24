@@ -2,21 +2,15 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certificates = [
-
   {
-    title: "TCP/IP and Advanced Topics",
-    issuer: "Coursera",
-    date: "November 2024",
+    title: "Privacy and Security in Online Social Media",
+    issuer: "NPTEL Certification",
+    date: "April 2025",
   },
   {
-    title: "Peer-to-Peer Protocols and Local Area Networks",
-    issuer: "Coursera",
-    date: "November 2024",
-  },
-  {
-    title: "The Bits and Bytes of Computer Networking",
-    issuer: "Coursera",
-    date: "September 2024",
+    title: "AWS Cloud Training",
+    issuer: "Cloud Training Workshop",
+    date: "May 2025",
   },
 ];
 

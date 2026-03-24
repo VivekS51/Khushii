@@ -1,99 +1,84 @@
 export const myProjects = [
     {
         id: 1,
-        title: "Water Pollution & Resource Tracking",
+        title: "AI Packing List Generator",
         description:
-            "An application to check pollution indexes of different cities, creating awareness among citizens about water pollution levels.",
+            "Designed a smart solution to streamline your travel preparation process that gives you an instantly customized packing list tailored to specific journeys.",
         subDescription: [
-            "Constructed an application to check the pollution indexes of different cities.",
-            "Developed features and created a new landing page to enhance viewer experience.",
-            "Designed to create awareness among citizens about water pollution levels of their specific state/city.",
+            "Implemented a component-based architecture using React.js and TypeScript.",
+            "Utilized HTML and a CSS framework for clean code structure and reusability.",
+            "Creates potential for future enhancements like weather integration, calendar syncing, and printable checklists."
         ],
         href: "",
-        tags: ["Python", "HTML", "CSS", "MySQL"],
+        tags: ["React.js", "TypeScript", "HTML", "CSS"],
     },
     {
         id: 2,
-        title: "Arduino Rotatory Measurement Device",
+        title: "Text Editor Undo Redo Function",
         description:
-            "An Arduino-based device to measure rotational angle, direction, and speed using a rotary encoder.",
+            "Developed simple Undo and Redo features to effectively manage editing history.",
         subDescription: [
-            "Built an Arduino-based device to measure rotational angle, direction, and speed using a rotary encoder.",
-            "Added LCD/serial output for live display of rotational measurements.",
-            "Designed the circuit with stable sensor interfacing and noise-free signal handling.",
+            "Ensured a user-friendly and responsive experience using modern web technologies.",
+            "Implemented a Simple-Text Editor using HTML for structure, Tailwind CSS for styling, and JavaScript for functionality.",
+            "Improved performance by managing input events effectively and reducing unnecessary Document Object Model."
         ],
         href: "",
-        tags: ["Arduino", "C++", "Hardware", "IoT"],
-    },
-    {
-        id: 3,
-        title: "Library Management System",
-        description:
-            "A C++ application that lets users add, view, and search books through a simple menu interface.",
-        subDescription: [
-            "Created a Library Management System in C++ with a simple menu interface.",
-            "Used classes and file handling to store book records safely.",
-            "Made searching quick and accurate with efficient file operations and program structuring.",
-        ],
-        href: "",
-        tags: ["C++", "OOP", "DSA", "File Handling"],
+        tags: ["HTML", "Tailwind CSS", "JavaScript"],
     },
 ];
 
 export const mySocials = [
-    { name: "GitHub", href: "https://github.com/KhushiSaraswat", icon: "github" },
-    { name: "LinkedIn", href: "https://linkedin.com/in/khushi-saraswat", icon: "linkedin" },
+    { name: "GitHub", href: "https://github.com/Amit-mehta24", icon: "github" },
+    { name: "LinkedIn", href: "https://linkedin.com/in/amit-mehta24", icon: "linkedin" },
 ];
 
 export const trainingData = [
     {
-        title: "C++ Programming: OOPs and DSA",
-        job: "CSE Pathshala – Training",
-        date: "Jun 2025 – Jul 2025",
+        title: "DSA using CPP",
+        job: "Center For Professional Enhancement(LPU)",
+        date: "2024",
         contents: [
-            "Completed intensive training in Object-Oriented Programming and Data Structures & Algorithms.",
-            "Built a Library Management System as a capstone project.",
-            "Improved skills in file operations, program structuring, and problem-solving.",
+            "Completed hands-on training focused on core data structure, algorithms, and problem-solving using CPP.",
+            "Gained strong understanding of arrays, String, linked lists, stacks, queues, trees, graphs and hashing.",
+            "Implemented algorithms including sorting, searching, recursion, backtracking, and graphs.",
+            "Strengthened analytical thinking and time to build efficient & optimized solutions using OOPs concepts."
         ],
     },
 ];
 
 export const reviews = [
     {
-        name: "TCP/IP",
-        username: "@coursera",
-        body: "Completed TCP/IP and Advanced Topics certification from Coursera.",
-    },
-    {
-        name: "Networking",
-        username: "@coursera",
-        body: "Certified in Peer-to-Peer Protocols and Local Area Networks.",
-    },
-    {
-        name: "Computer Networking",
-        username: "@coursera",
-        body: "Completed The Bits and Bytes of Computer Networking certification.",
-    },
-    {
-        name: "Decision-Making",
+        name: "Work ethics",
         username: "@softskills",
-        body: "Strong decision-making abilities honed through academic and project work.",
+        body: "Maintains a strong professional standard and commitment to quality.",
     },
     {
-        name: "Public Speaking",
+        name: "Curiosity",
         username: "@softskills",
-        body: "Experienced in public speaking and presenting technical concepts clearly.",
+        body: "Always eager to learn new technologies and explore innovative solutions.",
     },
     {
-        name: "Adaptability",
+        name: "Productivity",
         username: "@softskills",
-        body: "Quick to adapt to new technologies, tools, and team environments.",
+        body: "Highly effective at managing time and delivering consistent output.",
+    },
+    {
+        name: "Empathy",
+        username: "@softskills",
+        body: "Collaborates well with team members and understands user needs deeply.",
     },
 ];
 
 export const techStack = [
-    "C++", "Java", "C", "Python",
-    "HTML", "CSS", "MySQL",
-    "AWS", "Apache Cloudstack",
-    "Arduino", "Git", "React"
+    { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
+    { name: "C", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" },
+    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+    { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
+    { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+    { name: "ReactJS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+    { name: "Spring Boot", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+    { name: "VirtualBox", logo: "" },
+    { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" }
 ];

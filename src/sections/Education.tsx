@@ -4,24 +4,24 @@ import { GraduationCap } from "lucide-react";
 const education = [
     {
         institution: "Lovely Professional University",
-        location: "Phagwara, Punjab",
-        degree: "Computer Science and Engineering",
-        score: "Percentage: 63%",
+        location: "Punjab, India",
+        degree: "Bachelor of Technology - Computer Science and Engineering",
+        score: "CGPA: 6.0",
         date: "August 2023 – Present",
     },
     {
-        institution: "India International School",
-        location: "Jaipur, Rajasthan",
+        institution: "BNS DAV Public School",
+        location: "Giridih, Jharkhand",
         degree: "Intermediate",
-        score: "Percentage: 88%",
-        date: "June 2021 – March 2023",
+        score: "Percentage: 61%",
+        date: "April 2021 – March 2023",
     },
     {
-        institution: "India International School",
-        location: "Jaipur, Rajasthan",
+        institution: "L.N.P Public School",
+        location: "Giridih, Jharkhand",
         degree: "Matriculation",
-        score: "Percentage: 92%",
-        date: "June 2020 – March 2021",
+        score: "Percentage: 65%",
+        date: "April 2022 – March 2023",
     },
 ];
 

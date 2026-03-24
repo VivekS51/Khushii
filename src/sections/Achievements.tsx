@@ -3,16 +3,16 @@ import { Trophy } from "lucide-react";
 
 const achievements = [
     {
-        title: "AWS Student Community Day Workshop",
-        organization: "AWS Cloud Clubs",
-        date: "November 2025",
-        description: "Participated in a workshop focused on cloud computing and AWS services."
+        title: "Traffic Management Web Application",
+        organization: "Hackathon participant",
+        date: "January 2025",
+        description: "Collaborated effectively with a team to design and present a real-time traffic management solution."
     },
     {
-        title: "Code off duty Hackathon (24 Hours)",
-        organization: "Campus-level",
-        date: "March 2024",
-        description: "Collaborated in a 24-hour coding hackathon to build innovative solutions."
+        title: "AWS Cloud Computing Workshop & Tech Event",
+        organization: "Industry-led Workshop",
+        date: "November 2025",
+        description: "Participated in an industry-led workshop covering AWS, EC2, S3, VPS, and basic deployment."
     },
 ];
 
