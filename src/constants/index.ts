@@ -37,6 +37,7 @@ export const trainingData = [
         title: "DSA using CPP",
         job: "Center For Professional Enhancement(LPU)",
         date: "2024",
+        certificate: "/dsa_certificate.pdf",
         contents: [
             "Completed hands-on training focused on core data structure, algorithms, and problem-solving using CPP.",
             "Gained strong understanding of arrays, String, linked lists, stacks, queues, trees, graphs and hashing.",

@@ -27,7 +27,11 @@ const Training = () => {
               <Briefcase className="w-3 h-3" />
             </div>
 
-            <div className="rounded-2xl p-6" style={{ background: "linear-gradient(135deg, hsl(var(--storm) / 0.5), hsl(var(--indigo) / 0.5))" }}>
+            <div 
+              className={`rounded-2xl p-6 ${(exp as any).certificate ? 'cursor-pointer hover:scale-[1.02] transition-transform' : ''}`} 
+              style={{ background: "linear-gradient(135deg, hsl(var(--storm) / 0.5), hsl(var(--indigo) / 0.5))" }}
+              onClick={() => (exp as any).certificate && window.open((exp as any).certificate, '_blank')}
+            >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1 mb-4">
                 <div>
                   <h3 className="text-lg font-semibold">{exp.title}</h3>
