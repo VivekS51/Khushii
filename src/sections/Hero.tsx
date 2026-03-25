@@ -100,7 +100,7 @@ const Hero = () => {
               transition={{ delay: 1.6 }}
             >
               <a
-                href="/PEV34CVamit.pdf"
+                href="/amit_cv.pdf"
                 download="Amit_Kumar_CV.pdf"
                 className="flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20 group w-fit"
               >
@@ -181,7 +181,7 @@ const Hero = () => {
               transition={{ delay: 1.6 }}
             >
               <a
-                href="/PEV34CVamit.pdf"
+                href="/amit_cv.pdf"
                 download="Amit_Kumar_CV.pdf"
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-accent text-accent-foreground font-semibold hover:bg-accent/90 transition-all duration-300 shadow-lg shadow-accent/20"
               >
